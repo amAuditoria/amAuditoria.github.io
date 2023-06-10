@@ -1,10 +1,30 @@
 @media only screen and (max-width: 850px) {
     li{
-        font-size: 10px;
+        font-size: 12px;
     }
     p {
-        font-size: 10px;
+        font-size: 12px;
     }
+
+    h1, h2, h3 {
+        margin-left: 10px;
+    }
+
+    h2, h3{
+        font-size: 15px;
+        word-spacing: 0.01em;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    #info {
+        align-items: center;
+        font-size: 20px;
+        margin: 0px;
+    }
+    
     #retro, #benefits, #purpose {
         padding-top: 0.02em!important;
         padding-bottom: 0.02em!important;
@@ -22,6 +42,9 @@
     #hide {
         display: none;
     }
+    #purpose, #benefits, #contact, #retro {
+        display: none;
+    }
 }
 
 
@@ -35,6 +58,7 @@ text-decoration: none;
     font-size: 16px;
     margin-top: 3px;
     line-height: 35px;
+    word-spacing: 0.02em;
 }
 
 img {
@@ -47,7 +71,8 @@ img {
     color: rgba(230,202,127,255);
     align-items: center;
     margin-left: 45%;
-    margin-top: 30px;
+    margin-top: 20px;
+    overflow: hidden;
 }
 
 p {
@@ -56,13 +81,12 @@ p {
 
 h1, h2, h3 {
     color: #9b8a52;
-    margin-left: 33%;
+    margin-left: 10%;
     margin-bottom: 20px;
 }
 
 h5 {
     color: rgba(126,100,60,255);
-
 }
 
 input {
@@ -73,9 +97,13 @@ input {
 
 #info {
     color: rgba(126,100,60,255);
-
+    margin-left: 22%;
+    padding-bottom: 20px;
 }
 
+.header {
+    margin-top: 10px;
+}
 .header:hover{
   transform: scale(.2);
   cursor: pointer;
@@ -86,4 +114,13 @@ input {
 
 #benefits {
     justify-content: baseline;
+}
+
+#tab2:hover, #tab3:hover, #tab4:hover, #tab5:hover {
+    transform: scale(.8);
+    filter: brightness(2.5);
+}
+
+#purpose, #benefits, #contact, #retro {
+    display: none;
 }
