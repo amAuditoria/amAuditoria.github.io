@@ -116,7 +116,7 @@ input {
     justify-content: baseline;
 }
 
-#tab2:hover, #tab3:hover, #tab4:hover, #tab5:hover {
+#tab2:hover, #tab3:hover, #tab4:hover, #tab5:hover, #tab6:hover {
     transform: scale(.8);
     filter: brightness(2.5);
 }
