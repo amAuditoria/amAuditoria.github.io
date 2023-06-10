@@ -105,11 +105,11 @@ input {
     margin-top: 10px;
 }
 .header:hover{
-  transform: scale(.2);
+  transform: scale(2);
   cursor: pointer;
-  transform: translate3d(4%, 2%, 0);
-  transition: 1500ms ease;
-  filter: invert(.5);
+  transform: translate3d(2%, 0, 0);
+  transition: 1000ms ease;
+  filter: brightness(2.8);
 }
 
 #benefits {
