@@ -10,11 +10,17 @@ document.getElementById("tab5").onclick = () => {changeDisplay("recurse")};
 document.getElementById("tab55").onclick = () => {changeDisplay("recurse")};
 document.getElementById("tab6").onclick = () => {changeDisplay("contact")};
 document.getElementById("tab66").onclick = () => {changeDisplay("contact")};
+document.getElementById("clickme").onclick = () => {changeDisplay("purpose")};
+document.getElementById("back").onclick = () => {changeDisplay("about")};
 
 window.onload = changeDisplay("about")
 
 function changeDisplay(id) {
     for (let element of document.getElementsByClassName("content"))
         element.style.display="none";
+    if (id == "about")
+        document.getElementById("back").style.display = "none";
+    else
+        document.getElementById("back").style.display = "block";
     document.getElementById(id).style.display = "block";
 }

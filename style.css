@@ -47,7 +47,6 @@
     }
 }
 
-
 a {
 text-decoration: none;
 }
@@ -113,7 +112,7 @@ input {
 }
 
 #benefits {
-    justify-content: baseline;
+    justify-content: start;
 }
 
 #tab2:hover, #tab3:hover, #tab4:hover, #tab5:hover, #tab6:hover {
@@ -123,4 +122,22 @@ input {
 
 #purpose, #benefits, #contact, #retro {
     display: none;
+}
+
+#retro {
+    align-content: start;
+}
+
+#clickme{
+    text-align: center;
+}
+
+#clickme:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(184, 182, 144);
+}
+
+#back:hover {
+    cursor: pointer;
 }
