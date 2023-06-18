@@ -8,26 +8,32 @@
 
     h1, h2, h3 {
         margin-left: 10px;
+        font-family: sans-serif;
     }
 
     h2, h3{
         font-size: 15px;
         word-spacing: 0.01em;
+        font-family: sans-serif;
     }
 
     h5 {
         font-size: 14px;
+        font-family: sans-serif;
     }
 
     #info {
         align-items: center;
         font-size: 20px;
         margin: 0px;
+        font-family: sans-serif;
     }
     
-    #retro, #benefits, #purpose {
+    #retro, #benefits, #purpose, #recurse {
         padding-top: 0.02em!important;
         padding-bottom: 0.02em!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
     #contact p {
         font-size: 12px;
@@ -44,6 +50,12 @@
     }
     #purpose, #benefits, #contact, #retro {
         display: none;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    #about {
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
 }
 
@@ -52,12 +64,13 @@ text-decoration: none;
 }
 
 * {
-    font-family: sans-serif;
+    font-family: 'Yantramanav';
     color: rgba(126,100,60,255);
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 3px;
     line-height: 35px;
-    word-spacing: 0.02em;
+    letter-spacing: 3px;
+
 }
 
 img {
@@ -80,27 +93,28 @@ p {
 
 h1, h2, h3 {
     color: #9b8a52;
-    margin-left: 10%;
     margin-bottom: 20px;
+    font-family: sans-serif;
 }
 
 h5 {
     color: rgba(126,100,60,255);
+    font-family: sans-serif;
 }
 
 input {
     margin-bottom: 10px;
-    width: 150px;
-    margin-right: 5px;
 }
 
 #info {
+    font-family: sans-serif;
     color: rgba(126,100,60,255);
     margin-left: 22%;
     padding-bottom: 20px;
 }
 
 .header {
+    font-family: sans-serif;
     margin-top: 10px;
 }
 .header:hover{
@@ -111,17 +125,15 @@ input {
   filter: brightness(2.8);
 }
 
-#benefits {
-    justify-content: start;
-}
-
 #tab2:hover, #tab3:hover, #tab4:hover, #tab5:hover, #tab6:hover {
-    transform: scale(.8);
+    transform: scale(.9);
     filter: brightness(2.5);
 }
 
-#purpose, #benefits, #contact, #retro {
+#purpose, #benefits, #contact, #retro, #recurse {
     display: none;
+    padding-left: 20%;
+    padding-right: 15%;
 }
 
 #retro {
@@ -132,10 +144,28 @@ input {
     text-align: center;
 }
 
+#about {
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
 #clickme:hover {
     cursor: pointer;
     text-decoration: underline;
     color: rgb(184, 182, 144);
+}
+
+#nome, #sobrenome {
+    width: 35%;
+}
+
+#msg {
+    width: 70%;
+}
+
+#boxing{
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 #back:hover {
