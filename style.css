@@ -17,18 +17,15 @@
         margin-left: 10px;
         font-family: sans-serif;
         letter-spacing: 1px;
-        line-height: 40px;
     }
     h2, h3{
         font-size: 15px;
         word-spacing: 0.01em;
         font-family: sans-serif;
         letter-spacing: 1px;
-        line-height: 40px;
-
     }
 
-    h5 {
+    h5, h4 {
         font-size: 12px;
         font-family: sans-serif;
         letter-spacing: 1px;
@@ -70,6 +67,12 @@
         padding-left: 0!important;
         padding-right: 0!important;
     }
+    #testing {
+        font-size: 16px!important;
+    }
+    .testli {
+        font-size: 13px!important;
+    }
 }
 
 a {
@@ -79,7 +82,7 @@ text-decoration: none;
 * {
     font-family: 'Yantramanav';
     color: rgba(126,100,60,255);
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 3px;
     line-height: 35px;
     letter-spacing: 3px;
@@ -109,6 +112,7 @@ h1, h2, h3 {
     color: #9b8a52;
     margin-bottom: 20px;
     font-family: sans-serif;
+    line-height: 40px;
 }
 
 h5 {
@@ -187,4 +191,21 @@ input {
 
 #back:hover {
     cursor: pointer;
+}
+
+#testing, .testli{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-align: center;
+    display: inline;
+    text-decoration-color: rgb(113, 111, 74);
+}
+
+.testli {
+    text-decoration-color: rgb(60, 58, 35);
+}
+
+#testing {
+    font-size: 34px;
+    color: #9b8a52;
 }
